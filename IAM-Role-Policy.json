@@ -1,0 +1,11 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowInvokeSpecificEndpoint",
+            "Effect": "Allow",
+            "Action": "sagemaker:InvokeEndpoint",
+            "Resource": "arn:aws:sagemaker:us-east-2:250670716936:endpoint/huggingface-pytorch-tgi-inference-2024-10-05-07-35-55-314"
+        }
+    ]
+}
